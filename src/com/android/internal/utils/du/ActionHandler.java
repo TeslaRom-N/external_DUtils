@@ -198,7 +198,7 @@ public class ActionHandler {
             SystemAction.Overview,SystemAction.Menu,
             SystemAction.Back, SystemAction.VoiceSearch,
             SystemAction.Home, SystemAction.ExpandedDesktop,
-            // SystemAction.Screenrecord, SystemAction.Ime,
+            SystemAction.Ime,
             SystemAction.StopScreenPinning, SystemAction.ImeArrowDown,
             SystemAction.ImeArrowLeft, SystemAction.ImeArrowRight,
             SystemAction.ImeArrowUp, SystemAction.InAppSearch,
