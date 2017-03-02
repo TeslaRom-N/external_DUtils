@@ -651,6 +651,7 @@ public class ActionHandler {
             am.moveTaskToFront(lastTask.id, ActivityManager.MOVE_TASK_NO_USER_ACTION,
                     opts.toBundle());
         }
+        cancelPreloadRecentApps();
     }
 
     private static ActivityManager.RunningTaskInfo getLastTask(Context context,
